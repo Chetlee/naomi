@@ -28,7 +28,7 @@ contexts:
       ]
 
   arguments:
-    - include: ./fjsx15/expression.sublime-syntax
+    - include: fjsx15/expression.sublime-syntax
 
   decorator-identifier:
     # With arguments.

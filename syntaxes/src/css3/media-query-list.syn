@@ -41,11 +41,11 @@ contexts:
     - include: pop-now
 
   optional-query:
-    - include: ./css3/optional-media-query.sublime-syntax
+    - include: css3/optional-media-query.sublime-syntax
 
   pop-now:
     - match: ""
       pop: true
 
   query:
-    - include: ./css3/media-query.sublime-syntax
+    - include: css3/media-query.sublime-syntax

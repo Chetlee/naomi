@@ -51,4 +51,4 @@ contexts:
       pop: true
 
   query:
-    - include: ./css3/optional-feature-query.sublime-syntax
+    - include: css3/optional-feature-query.sublime-syntax

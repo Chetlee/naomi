@@ -39,7 +39,7 @@ contexts:
     - meta_scope: >-
         text.html
         meta.naomi
-    - include: ./html5/element.sublime-syntax
+    - include: html5/element.sublime-syntax
 
   close:
     - match: \`

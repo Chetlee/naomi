@@ -19,4 +19,4 @@ contexts:
       push: php
 
   php:
-    - include: ./naomi.php7.sublime-syntax
+    - include: naomi.php7.sublime-syntax

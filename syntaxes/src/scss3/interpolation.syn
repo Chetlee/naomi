@@ -27,6 +27,6 @@ contexts:
       pop: true
     - match: ""
       push:
-        - include: ./scss3/statement-and-expression.sublime-syntax
+        - include: scss3/statement-and-expression.sublime-syntax
         - match: ""
           pop: true

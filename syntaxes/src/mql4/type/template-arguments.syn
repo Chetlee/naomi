@@ -31,7 +31,7 @@ contexts:
       pop: true
 
   argument:
-    - include: ./mql4/type.sublime-syntax
+    - include: mql4/type.sublime-syntax
 
   definition:
     - match: \>

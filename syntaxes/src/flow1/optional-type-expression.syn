@@ -17,4 +17,4 @@ contexts:
   main:
     - match: (?=[>,;:)\]}])
       pop: true
-    - include: ./flow1/type-expression.sublime-syntax
+    - include: flow1/type-expression.sublime-syntax

@@ -23,4 +23,4 @@ contexts:
           )
         )
       push:
-        - include: ./mql4/comment.sublime-syntax
+        - include: mql4/comment.sublime-syntax

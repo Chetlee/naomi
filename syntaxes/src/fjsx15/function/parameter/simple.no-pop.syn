@@ -29,4 +29,4 @@ contexts:
       push: parameter
 
   parameter:
-    - include: ./fjsx15/function/parameter/simple.sublime-syntax
+    - include: fjsx15/function/parameter/simple.sublime-syntax

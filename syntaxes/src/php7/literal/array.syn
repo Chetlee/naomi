@@ -49,7 +49,7 @@ contexts:
     - include: item-definition
     - match: ""
       push:
-        - include: ./php7/statement-and-expression.sublime-syntax
+        - include: php7/statement-and-expression.sublime-syntax
         - match: ""
           pop: true
 
@@ -58,7 +58,7 @@ contexts:
     - include: item-definition
     - match: ""
       push:
-        - include: ./php7/statement-and-expression.sublime-syntax
+        - include: php7/statement-and-expression.sublime-syntax
         - match: ""
           pop: true
 

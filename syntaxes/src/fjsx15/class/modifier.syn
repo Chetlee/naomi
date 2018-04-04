@@ -37,10 +37,10 @@ contexts:
       set: modifier-trap
 
   comment-no-pop:
-    - include: ./fjsx15/comment.no-pop.sublime-syntax
+    - include: fjsx15/comment.no-pop.sublime-syntax
 
   method-declaration:
-    - include: ./fjsx15/class/method.sublime-syntax#declaration
+    - include: fjsx15/class/method.sublime-syntax#declaration
 
   modifier-trap:
     - include: main
@@ -49,5 +49,5 @@ contexts:
 
   property-or-method:
     - include: comment-no-pop
-    - include: ./fjsx15/class/method.sublime-syntax
-    - include: ./fjsx15/class/property.sublime-syntax
+    - include: fjsx15/class/method.sublime-syntax
+    - include: fjsx15/class/property.sublime-syntax

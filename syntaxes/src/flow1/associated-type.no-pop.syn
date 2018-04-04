@@ -19,4 +19,4 @@ contexts:
       push: associated-type
 
   associated-type:
-    - include: ./flow1/associated-type.sublime-syntax
+    - include: flow1/associated-type.sublime-syntax

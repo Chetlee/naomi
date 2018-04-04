@@ -15,4 +15,4 @@
 
 contexts:
   main:
-    - include: ./css3/comment/block.sublime-syntax
+    - include: css3/comment/block.sublime-syntax

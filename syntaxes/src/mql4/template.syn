@@ -49,5 +49,5 @@ contexts:
         3: punctuation.definition.template.parameter.mql.mql4
 
   target:
-    - include: ./mql4/function.sublime-syntax
-    - include: ./mql4/class.sublime-syntax
+    - include: mql4/function.sublime-syntax
+    - include: mql4/class.sublime-syntax

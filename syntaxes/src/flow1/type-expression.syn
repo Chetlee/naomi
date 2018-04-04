@@ -17,9 +17,9 @@ contexts:
   main:
     - include: comment-no-pop
     # Functions need to be detected before expression groups.
-    - include: ./flow1/function.sublime-syntax
+    - include: flow1/function.sublime-syntax
     # Detect operators as soon as possible.
-    - include: ./flow1/operator.sublime-syntax
+    - include: flow1/operator.sublime-syntax
     # Open new type expression group.
     - match: \(
       scope: punctuation.section.group.begin.flow
@@ -34,7 +34,7 @@ contexts:
       set: optional-tail
 
   comment-no-pop:
-    - include: ./fjsx15/comment.no-pop.sublime-syntax
+    - include: fjsx15/comment.no-pop.sublime-syntax
 
   else-pop:
     - match: (?=\S)
@@ -42,18 +42,18 @@ contexts:
 
   head:
     - include: comment-no-pop
-    - include: ./flow1/object.sublime-syntax
-    - include: ./flow1/tuple.sublime-syntax
-    - include: ./fjsx15/literal/number.sublime-syntax
-    - include: ./fjsx15/literal/string/double-quoted.sublime-syntax
-    - include: ./fjsx15/literal/string/single-quoted.sublime-syntax
-    - include: ./fjsx15/literal/string/template.sublime-syntax
-    - include: ./flow1/simple.sublime-syntax
+    - include: flow1/object.sublime-syntax
+    - include: flow1/tuple.sublime-syntax
+    - include: fjsx15/literal/number.sublime-syntax
+    - include: fjsx15/literal/string/double-quoted.sublime-syntax
+    - include: fjsx15/literal/string/single-quoted.sublime-syntax
+    - include: fjsx15/literal/string/template.sublime-syntax
+    - include: flow1/simple.sublime-syntax
 
   open-group:
     - include: comment-no-pop
     # Functions need to be detected before expression groups.
-    - include: ./flow1/function.no-pop.sublime-syntax
+    - include: flow1/function.no-pop.sublime-syntax
     # Open new type expression group.
     - match: \(
       scope: punctuation.section.group.begin.flow
@@ -70,13 +70,13 @@ contexts:
     - match: (?=[\[<])
       set: [ optional-tail, tail ]
     # Other operators.
-    - include: ./flow1/operator.sublime-syntax
+    - include: flow1/operator.sublime-syntax
     - include: else-pop
 
   optional-type-expression:
-    - include: ./flow1/optional-type-expression.sublime-syntax
+    - include: flow1/optional-type-expression.sublime-syntax
 
   tail:
     - include: comment-no-pop
-    - include: ./flow1/operator/array-shorthand.sublime-syntax
-    - include: ./flow1/generic/arguments.sublime-syntax
+    - include: flow1/operator/array-shorthand.sublime-syntax
+    - include: flow1/generic/arguments.sublime-syntax

@@ -32,4 +32,4 @@ contexts:
       pop: true
 
   regex-content:
-    - include: ./fjsx15/literal/string/regex.sublime-syntax#regex-content
+    - include: fjsx15/literal/string/regex.sublime-syntax#regex-content

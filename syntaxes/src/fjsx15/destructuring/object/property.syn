@@ -48,12 +48,12 @@ contexts:
     - include: comment-no-pop
     - match: (?=\))
       pop: true
-    - include: ./fjsx15/destructuring/array.sublime-syntax
-    - include: ./fjsx15/destructuring/object.sublime-syntax
-    - include: ./fjsx15/variable-declaration.sublime-syntax#variable-or-constant
+    - include: fjsx15/destructuring/array.sublime-syntax
+    - include: fjsx15/destructuring/object.sublime-syntax
+    - include: fjsx15/variable-declaration.sublime-syntax#variable-or-constant
 
   comment-no-pop:
-    - include: ./fjsx15/comment.no-pop.sublime-syntax
+    - include: fjsx15/comment.no-pop.sublime-syntax
 
   computed-property-end:
     - match: \]
@@ -75,9 +75,9 @@ contexts:
       pop: true
 
   optional-expression:
-    - include: ./fjsx15/optional-expression.sublime-syntax
+    - include: fjsx15/optional-expression.sublime-syntax
 
   string:
-    - include: ./fjsx15/literal/string/double-quoted.sublime-syntax
-    - include: ./fjsx15/literal/string/single-quoted.sublime-syntax
-    - include: ./fjsx15/literal/string/template.sublime-syntax
+    - include: fjsx15/literal/string/double-quoted.sublime-syntax
+    - include: fjsx15/literal/string/single-quoted.sublime-syntax
+    - include: fjsx15/literal/string/template.sublime-syntax

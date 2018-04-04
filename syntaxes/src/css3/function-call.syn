@@ -37,7 +37,7 @@ contexts:
       pop: true
 
   arguments:
-    - include: ./css3/function-call/arguments.sublime-syntax
+    - include: css3/function-call/arguments.sublime-syntax
 
   calc:
     - match: calc(?=\s*\()
@@ -51,7 +51,7 @@ contexts:
       push: [ calc-optional-tail, calc-head ]
 
   calc-head:
-    - include: ./css3/value.sublime-syntax
+    - include: css3/value.sublime-syntax
 
   calc-optional-tail:
     - match: "[+\\-*/]"
@@ -93,8 +93,8 @@ contexts:
     - include: pop-now
 
   optional-var-value:
-    - include: ./css3/property.sublime-syntax#custom
-    - include: ./css3/value.sublime-syntax
+    - include: css3/property.sublime-syntax#custom
+    - include: css3/value.sublime-syntax
     - include: else-pop
 
   other:
@@ -125,8 +125,8 @@ contexts:
       pop: true
 
   quoted-string:
-    - include: ./css3/literal/string/double-quoted.sublime-syntax
-    - include: ./css3/literal/string/single-quoted.sublime-syntax
+    - include: css3/literal/string/double-quoted.sublime-syntax
+    - include: css3/literal/string/single-quoted.sublime-syntax
 
   regexp:
     - match: regexp(?=\s*\()

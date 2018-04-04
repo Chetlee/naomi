@@ -44,7 +44,7 @@ contexts:
       ]
 
   close-open-tag:
-    - include: ./jsx1/shared.sublime-syntax#close-open-tag
+    - include: jsx1/shared.sublime-syntax#close-open-tag
 
   meta:
     - meta_scope: meta.tag.other.component.html.jsx.jsx1
@@ -52,7 +52,7 @@ contexts:
       pop: true
 
   namespaced-closing-tag:
-    - include: ./jsx1/shared.sublime-syntax#component-closing-tag
+    - include: jsx1/shared.sublime-syntax#component-closing-tag
 
   with-js-fence:
     - match: |

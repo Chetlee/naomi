@@ -43,8 +43,8 @@ contexts:
       set: optional-refinement
 
   optional-refinement:
-    - include: ./flow1/associated-type.sublime-syntax
+    - include: flow1/associated-type.sublime-syntax
     - include: else-pop
 
   optional-type-expression:
-    - include: ./flow1/optional-type-expression.sublime-syntax
+    - include: flow1/optional-type-expression.sublime-syntax

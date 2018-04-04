@@ -17,6 +17,6 @@ contexts:
   main:
     - match: (?=[)\]}])
       pop: true
-    - include: ./fjsx15/comment.no-pop.sublime-syntax
-    - include: ./fjsx15/statement.sublime-syntax
-    - include: ./fjsx15/expression.sublime-syntax
+    - include: fjsx15/comment.no-pop.sublime-syntax
+    - include: fjsx15/statement.sublime-syntax
+    - include: fjsx15/expression.sublime-syntax

@@ -18,7 +18,7 @@ contexts:
     - include: expression-escape
     - match: (?=\S)
       set:
-        - include: ./css3/feature-query.sublime-syntax
+        - include: css3/feature-query.sublime-syntax
 
   expression-escape:
     - match: (?=[,;:)\]}])

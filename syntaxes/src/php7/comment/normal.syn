@@ -48,7 +48,7 @@ contexts:
           pop: true
 
   link:
-    - include: ./shared/link.sublime-syntax
+    - include: shared/link.sublime-syntax
 
   email:
-    - include: ./shared/email.sublime-syntax
+    - include: shared/email.sublime-syntax

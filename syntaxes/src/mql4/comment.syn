@@ -15,4 +15,4 @@
 
 contexts:
   main:
-    - include: ./mql4/comment/normal.sublime-syntax
+    - include: mql4/comment/normal.sublime-syntax

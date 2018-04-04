@@ -92,16 +92,16 @@ contexts:
       ]
 
   declaration:
-    - include: ./flow1/function.sublime-syntax#declaration
+    - include: flow1/function.sublime-syntax#declaration
 
   head:
-    - include: ./flow1/function.sublime-syntax#head
+    - include: flow1/function.sublime-syntax#head
 
   meta-parameters:
-    - include: ./flow1/function.sublime-syntax#meta-parameters
+    - include: flow1/function.sublime-syntax#meta-parameters
 
   optional-tail:
-    - include: ./flow1/function.sublime-syntax#optional-tail
+    - include: flow1/function.sublime-syntax#optional-tail
 
   return:
-    - include: ./flow1/function.sublime-syntax#return
+    - include: flow1/function.sublime-syntax#return

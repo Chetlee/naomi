@@ -17,4 +17,4 @@ contexts:
   main:
     - match: (?=/\*)
       push:
-        - include: ./css3/comment.sublime-syntax
+        - include: css3/comment.sublime-syntax

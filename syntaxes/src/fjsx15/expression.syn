@@ -27,10 +27,10 @@ contexts:
       pop: true
 
   comma:
-    - include: ./fjsx15/operator/comma.sublime-syntax
+    - include: fjsx15/operator/comma.sublime-syntax
 
   comment-no-pop:
-    - include: ./fjsx15/comment.no-pop.sublime-syntax
+    - include: fjsx15/comment.no-pop.sublime-syntax
 
   do-expression:
     - match: do\b
@@ -59,24 +59,24 @@ contexts:
       pop: true
 
   globals:
-    - include: ./fjsx15/node-js.sublime-syntax
-    - include: ./fjsx15/react-js.sublime-syntax
-    - include: ./fjsx15/jest.sublime-syntax
-    - include: ./fjsx15/web.sublime-syntax
-    - include: ./fjsx15/core.sublime-syntax
+    - include: fjsx15/node-js.sublime-syntax
+    - include: fjsx15/react-js.sublime-syntax
+    - include: fjsx15/jest.sublime-syntax
+    - include: fjsx15/web.sublime-syntax
+    - include: fjsx15/core.sublime-syntax
 
   head:
     - include: comment-no-pop
     - include: do-expression
     - include: globals
-    - include: ./fjsx15/jsx1.sublime-syntax
-    - include: ./fjsx15/literal.sublime-syntax
-    - include: ./fjsx15/class.sublime-syntax
-    - include: ./fjsx15/function-expression.sublime-syntax
-    - include: ./fjsx15/function-call.sublime-syntax
-    - include: ./fjsx15/variable.sublime-syntax#function-assigned-to-variable
-    - include: ./fjsx15/constant.sublime-syntax
-    - include: ./fjsx15/variable.sublime-syntax
+    - include: fjsx15/jsx1.sublime-syntax
+    - include: fjsx15/literal.sublime-syntax
+    - include: fjsx15/class.sublime-syntax
+    - include: fjsx15/function-expression.sublime-syntax
+    - include: fjsx15/function-call.sublime-syntax
+    - include: fjsx15/variable.sublime-syntax#function-assigned-to-variable
+    - include: fjsx15/constant.sublime-syntax
+    - include: fjsx15/variable.sublime-syntax
     # Open new expression group.
     - match: \(
       scope: punctuation.section.group.begin.js.fjsx15
@@ -116,17 +116,17 @@ contexts:
       push: property-access
     # Other operators. At this point, operators will have a higher priority than
     # regex literals.
-    - include: ./fjsx15/operator.sublime-syntax
+    - include: fjsx15/operator.sublime-syntax
     # Anything else not expected.
     - match: (?=\S)
       pop: true
 
   property-access:
     - include: comment-no-pop
-    - include: ./fjsx15/property-access.sublime-syntax
+    - include: fjsx15/property-access.sublime-syntax
 
   regex-literal:
-    - include: ./fjsx15/literal/string/regex.sublime-syntax
+    - include: fjsx15/literal/string/regex.sublime-syntax
 
   shared-main:
     - include: comma
@@ -134,22 +134,22 @@ contexts:
     - match: (?=\/)
       set: [ optional-tail, regex-literal ]
     # Arrow functions need to be detected before expression groups.
-    - include: ./fjsx15/arrow-function.sublime-syntax
+    - include: fjsx15/arrow-function.sublime-syntax
     # At this point is possible to predict JSX tags before operators because
     # there’s no left operand for a "<" operator to be valid.
-    - include: ./fjsx15/jsx1-early.sublime-syntax
+    - include: fjsx15/jsx1-early.sublime-syntax
     # Prevent floating point being highlighted as a dot operator followed by an
     # integer.
     - match: (?=\.\d)
       set:
-        - include: ./fjsx15/literal/number.sublime-syntax
+        - include: fjsx15/literal/number.sublime-syntax
     # Detect operators as soon as possible.
-    - include: ./fjsx15/operator.sublime-syntax
+    - include: fjsx15/operator.sublime-syntax
 
   statement-or-expression:
     - include: comment-no-pop
-    - include: ./fjsx15/statement.sublime-syntax
-    - include: ./fjsx15/expression.sublime-syntax
+    - include: fjsx15/statement.sublime-syntax
+    - include: fjsx15/expression.sublime-syntax
 
   type-cast:
-    - include: ./flow1/cast.sublime-syntax
+    - include: flow1/cast.sublime-syntax

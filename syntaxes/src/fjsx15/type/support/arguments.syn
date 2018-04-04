@@ -27,6 +27,6 @@ contexts:
       scope: punctuation.definition.type.arguments.js.fjsx15
     - match: ""
       push:
-        # - include: ./fjsx15/statement-and-expression.sublime-syntax
+        # - include: fjsx15/statement-and-expression.sublime-syntax
         - match: ""
           pop: true

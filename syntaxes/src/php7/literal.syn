@@ -15,9 +15,9 @@
 
 contexts:
   main:
-    - include: ./php7/literal/array.sublime-syntax
-    - include: ./php7/literal/number.sublime-syntax
-    - include: ./php7/literal/string/single-quoted.sublime-syntax
-    - include: ./php7/literal/string/double-quoted.sublime-syntax
-    - include: ./php7/literal/string/nowdoc.sublime-syntax
-    - include: ./php7/literal/string/heredoc.sublime-syntax
+    - include: php7/literal/array.sublime-syntax
+    - include: php7/literal/number.sublime-syntax
+    - include: php7/literal/string/single-quoted.sublime-syntax
+    - include: php7/literal/string/double-quoted.sublime-syntax
+    - include: php7/literal/string/nowdoc.sublime-syntax
+    - include: php7/literal/string/heredoc.sublime-syntax

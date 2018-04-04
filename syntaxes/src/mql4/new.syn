@@ -24,7 +24,7 @@ contexts:
       ]
 
   arguments:
-    - include: ./mql4/function-call/arguments.sublime-syntax
+    - include: mql4/function-call/arguments.sublime-syntax
 
   type:
-    - include: ./mql4/type.sublime-syntax
+    - include: mql4/type.sublime-syntax

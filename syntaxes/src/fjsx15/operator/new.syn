@@ -60,20 +60,20 @@ contexts:
     - include: pop-now
 
   optional-arguments:
-    - include: ./fjsx15/function-call.sublime-syntax#optional-arguments
+    - include: fjsx15/function-call.sublime-syntax#optional-arguments
 
   optional-expression:
-    - include: ./fjsx15/optional-expression.sublime-syntax
+    - include: fjsx15/optional-expression.sublime-syntax
 
   optional-tail:
-    - include: ./fjsx15/expression.sublime-syntax#optional-tail
+    - include: fjsx15/expression.sublime-syntax#optional-tail
 
   pop-now:
     - match: ""
       pop: true
 
   type:
-    - include: ./fjsx15/core.sublime-syntax
+    - include: fjsx15/core.sublime-syntax
     # Object before target property.
     - match: (?xi)({{commonIdentifier}})\s*(\.)
       captures:
@@ -84,4 +84,4 @@ contexts:
       scope: variable.other.type.js.fjsx15
       pop: true
     # Other expressions.
-    - include: ./fjsx15/expression.sublime-syntax
+    - include: fjsx15/expression.sublime-syntax

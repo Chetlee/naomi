@@ -62,10 +62,10 @@ contexts:
       set: declaration
 
   body:
-    - include: ./fjsx15/function/body.sublime-syntax
+    - include: fjsx15/function/body.sublime-syntax
 
   comment-no-pop:
-    - include: ./fjsx15/comment.no-pop.sublime-syntax
+    - include: fjsx15/comment.no-pop.sublime-syntax
 
   computed-identifier-end:
     - match: \]
@@ -103,9 +103,9 @@ contexts:
     # String identifiers
     - match: (?=['"`])
       push:
-        - include: ./fjsx15/literal/string/double-quoted.sublime-syntax
-        - include: ./fjsx15/literal/string/single-quoted.sublime-syntax
-        - include: ./fjsx15/literal/string/template.sublime-syntax
+        - include: fjsx15/literal/string/double-quoted.sublime-syntax
+        - include: fjsx15/literal/string/single-quoted.sublime-syntax
+        - include: fjsx15/literal/string/template.sublime-syntax
     - include: else-pop
 
   else-pop:
@@ -113,21 +113,21 @@ contexts:
       pop: true
 
   generic-parameters:
-    - include: ./flow1/generic/parameters.sublime-syntax
+    - include: flow1/generic/parameters.sublime-syntax
 
   optional-body:
     - include: body
     - include: else-pop
 
   optional-expression:
-    - include: ./fjsx15/optional-expression.sublime-syntax
+    - include: fjsx15/optional-expression.sublime-syntax
 
   optional-support-body:
     - include: body
     - include: else-pop
 
   parameters:
-    - include: ./fjsx15/function/parameters.sublime-syntax
+    - include: fjsx15/function/parameters.sublime-syntax
 
   support-parameters:
-    - include: ./fjsx15/function/parameters.sublime-syntax
+    - include: fjsx15/function/parameters.sublime-syntax

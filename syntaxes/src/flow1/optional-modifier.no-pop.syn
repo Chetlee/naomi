@@ -19,4 +19,4 @@ contexts:
       push: optional-modifier
 
   optional-modifier:
-    - include: ./flow1/optional-modifier.sublime-syntax
+    - include: flow1/optional-modifier.sublime-syntax

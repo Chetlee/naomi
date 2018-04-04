@@ -24,19 +24,19 @@ contexts:
     - match: (?=[,}])
       pop: true
     # Spread.
-    - include: ./fjsx15/operator/spread.sublime-syntax
+    - include: fjsx15/operator/spread.sublime-syntax
     # Methods.
-    - include: ./fjsx15/class/modifier.sublime-syntax
-    - include: ./fjsx15/class/method.sublime-syntax
+    - include: fjsx15/class/modifier.sublime-syntax
+    - include: fjsx15/class/method.sublime-syntax
     # Shorthand.
     - include: constant
     - include: variable
 
   comment-no-pop:
-    - include: ./fjsx15/comment.no-pop.sublime-syntax
+    - include: fjsx15/comment.no-pop.sublime-syntax
 
   constant:
-    - include: ./fjsx15/constant.sublime-syntax
+    - include: fjsx15/constant.sublime-syntax
 
   delimiters:
     - meta_scope: >-
@@ -49,10 +49,10 @@ contexts:
       scope: punctuation.section.block.end.js.fjsx15
       pop: true
     # Key.
-    - include: ./fjsx15/literal/object/property.sublime-syntax
+    - include: fjsx15/literal/object/property.sublime-syntax
     # Anything else.
     - match: (?=\S)
       push: anything-else
 
   variable:
-    - include: ./fjsx15/variable.sublime-syntax
+    - include: fjsx15/variable.sublime-syntax

@@ -46,11 +46,11 @@ contexts:
       ]
 
   accessor-head:
-    - include: ./fjsx15/comment.no-pop.sublime-syntax
-    - include: ./fjsx15/function-call.sublime-syntax
-    - include: ./fjsx15/variable.sublime-syntax#function-assigned-to-variable
-    - include: ./fjsx15/constant.sublime-syntax
-    - include: ./fjsx15/variable.sublime-syntax
+    - include: fjsx15/comment.no-pop.sublime-syntax
+    - include: fjsx15/function-call.sublime-syntax
+    - include: fjsx15/variable.sublime-syntax#function-assigned-to-variable
+    - include: fjsx15/constant.sublime-syntax
+    - include: fjsx15/variable.sublime-syntax
 
   # Used near accessor to highlight global functions and properties.
   other-property-or-function:
@@ -58,10 +58,10 @@ contexts:
       set: [ optional-tail, accessor-head ]
 
   optional-expression:
-    - include: ./fjsx15/optional-expression.sublime-syntax
+    - include: fjsx15/optional-expression.sublime-syntax
 
   optional-tail:
-    - include: ./fjsx15/expression.sublime-syntax#optional-tail
+    - include: fjsx15/expression.sublime-syntax#optional-tail
 
   ternary-else:
     - match: ":"
@@ -69,4 +69,4 @@ contexts:
       set: optional-expression
 
   yield-head:
-    - include: ./fjsx15/expression.sublime-syntax#head
+    - include: fjsx15/expression.sublime-syntax#head

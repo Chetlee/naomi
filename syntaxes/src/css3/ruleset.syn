@@ -19,7 +19,7 @@ contexts:
       set: [ meta, block, selector-list ]
 
   block:
-    - include: ./css3/ruleset/block.sublime-syntax
+    - include: css3/ruleset/block.sublime-syntax
 
   meta:
     - meta_scope: meta.rule-set.css.css3
@@ -27,4 +27,4 @@ contexts:
       pop: true
 
   selector-list:
-    - include: ./css3/ruleset/selector-list.sublime-syntax
+    - include: css3/ruleset/selector-list.sublime-syntax

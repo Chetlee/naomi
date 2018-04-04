@@ -38,5 +38,5 @@ contexts:
               )
             )
           pop: true
-        - include: ./scss3/attribute.sublime-syntax
-        - include: ./scss3/selector.sublime-syntax
+        - include: scss3/attribute.sublime-syntax
+        - include: scss3/selector.sublime-syntax

@@ -20,9 +20,9 @@ contexts:
       set: [ meta, close, operator, attribute ]
 
   attribute:
-    - include: ./html5/attribute/builtin.sublime-syntax
-    - include: ./html5/attribute/data.sublime-syntax
-    - include: ./html5/attribute/other.sublime-syntax
+    - include: html5/attribute/builtin.sublime-syntax
+    - include: html5/attribute/data.sublime-syntax
+    - include: html5/attribute/other.sublime-syntax
 
   close:
     - match: \]
@@ -42,4 +42,4 @@ contexts:
       pop: true
 
   value:
-    - include: ./css3/value.sublime-syntax
+    - include: css3/value.sublime-syntax

@@ -37,13 +37,13 @@ contexts:
       pop: true
 
   constant:
-    - include: ./php7/constant/normal.sublime-syntax
+    - include: php7/constant/normal.sublime-syntax
 
   number:
-    - include: ./php7/literal/number.sublime-syntax
+    - include: php7/literal/number.sublime-syntax
 
   type:
-    - include: ./php7/type.sublime-syntax
+    - include: php7/type.sublime-syntax
 
   function:
     - match: (?xi)\s*({{commonIdentifier}})

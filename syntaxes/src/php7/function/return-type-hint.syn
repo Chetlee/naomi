@@ -21,5 +21,5 @@ contexts:
       set: return-type
 
   return-type:
-    - include: ./php7/comment.no-pop.sublime-syntax
-    - include: ./php7/type.sublime-syntax
+    - include: php7/comment.no-pop.sublime-syntax
+    - include: php7/type.sublime-syntax

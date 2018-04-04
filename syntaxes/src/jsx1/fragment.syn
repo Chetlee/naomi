@@ -36,7 +36,7 @@ contexts:
       push: content
 
   content:
-    - include: ./jsx1/shared.sublime-syntax#content
+    - include: jsx1/shared.sublime-syntax#content
 
   meta:
     - meta_scope: meta.tag.other.fragment.jsx.jsx1

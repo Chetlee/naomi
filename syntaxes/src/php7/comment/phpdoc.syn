@@ -39,7 +39,7 @@ contexts:
     - include: other-tags
 
   variable:
-    - include: ./php7/variable.sublime-syntax
+    - include: php7/variable.sublime-syntax
 
   types:
     # $this.
@@ -60,7 +60,7 @@ contexts:
       ]
 
   type:
-    - include: ./php7/type.sublime-syntax
+    - include: php7/type.sublime-syntax
 
   type-definition:
     - match: |

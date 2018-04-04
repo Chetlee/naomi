@@ -15,7 +15,7 @@
 
 contexts:
   main:
-    - include: ./scss3/operator/comparison.sublime-syntax
-    - include: ./scss3/operator/logical.sublime-syntax
-    - include: ./scss3/operator/arithmetic.sublime-syntax
-    - include: ./scss3/operator/other.sublime-syntax
+    - include: scss3/operator/comparison.sublime-syntax
+    - include: scss3/operator/logical.sublime-syntax
+    - include: scss3/operator/arithmetic.sublime-syntax
+    - include: scss3/operator/other.sublime-syntax

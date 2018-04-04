@@ -15,5 +15,5 @@
 
 contexts:
   main:
-    - include: ./css3/value-no-unquoted-string.sublime-syntax
-    - include: ./css3/literal/string/unquoted.sublime-syntax
+    - include: css3/value-no-unquoted-string.sublime-syntax
+    - include: css3/literal/string/unquoted.sublime-syntax

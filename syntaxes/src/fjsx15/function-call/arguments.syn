@@ -30,4 +30,4 @@ contexts:
       push: expression
 
   expression:
-    - include: ./fjsx15/expression.sublime-syntax
+    - include: fjsx15/expression.sublime-syntax

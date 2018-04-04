@@ -26,7 +26,7 @@ contexts:
       set: parameters
 
   comment:
-    - include: ./php7/comment.no-pop.sublime-syntax
+    - include: php7/comment.no-pop.sublime-syntax
 
   parameters:
     - include: comment
@@ -61,7 +61,7 @@ contexts:
 
   variable-type:
     - include: comment
-    - include: ./php7/type.sublime-syntax
+    - include: php7/type.sublime-syntax
 
   variadic-or-reference-operator:
     - include: comment
@@ -87,7 +87,7 @@ contexts:
 
   param-variable:
     - include: comment
-    - include: ./php7/function/parameter.sublime-syntax
+    - include: php7/function/parameter.sublime-syntax
 
   param-optional-default-value:
     - include: comment
@@ -102,8 +102,8 @@ contexts:
     - include: comment
     - match: (?=\s*(?>,|\)))
       pop: true
-    - include: ./php7/constant.sublime-syntax
-    - include: ./php7/literal.sublime-syntax
+    - include: php7/constant.sublime-syntax
+    - include: php7/literal.sublime-syntax
     # Constant inside class.
     - match: |
         (?xi)
@@ -124,7 +124,7 @@ contexts:
       pop: true
 
   default-value-type:
-    - include: ./php7/type.sublime-syntax
+    - include: php7/type.sublime-syntax
 
   default-value-scope-operator:
     - match: "::"
@@ -133,4 +133,4 @@ contexts:
       pop: true
 
   default-value-constant:
-    - include: ./php7/constant.sublime-syntax
+    - include: php7/constant.sublime-syntax

@@ -15,9 +15,9 @@
 
 contexts:
   main:
-    - include: ./flow1/prolog.sublime-syntax
-    - include: ./flow1/comment.sublime-syntax
-    # - include: ./fjsx15/comment/eslint.sublime-syntax
-    - include: ./fjsx15/comment/docblock.sublime-syntax
-    - include: ./fjsx15/comment/block.sublime-syntax
-    - include: ./fjsx15/comment/line.sublime-syntax
+    - include: flow1/prolog.sublime-syntax
+    - include: flow1/comment.sublime-syntax
+    # - include: fjsx15/comment/eslint.sublime-syntax
+    - include: fjsx15/comment/docblock.sublime-syntax
+    - include: fjsx15/comment/block.sublime-syntax
+    - include: fjsx15/comment/line.sublime-syntax

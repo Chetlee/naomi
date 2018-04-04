@@ -19,4 +19,4 @@ contexts:
       push: parameters
 
   parameters:
-    - include: ./flow1/generic/parameters.sublime-syntax
+    - include: flow1/generic/parameters.sublime-syntax

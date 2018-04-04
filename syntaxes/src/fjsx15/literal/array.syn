@@ -29,4 +29,4 @@ contexts:
       push: optional-expression
 
   optional-expression:
-    - include: ./fjsx15/optional-expression.sublime-syntax
+    - include: fjsx15/optional-expression.sublime-syntax

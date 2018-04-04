@@ -19,4 +19,4 @@ contexts:
       push: rest-operator
 
   rest-operator:
-    - include: ./fjsx15/operator/rest.sublime-syntax
+    - include: fjsx15/operator/rest.sublime-syntax

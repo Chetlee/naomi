@@ -35,11 +35,11 @@ contexts:
       captures:
         1: keyword.other.terminator.flow
       pop: true
-    - include: ./flow1/associated-type.sublime-syntax
-    - include: ./flow1/declare.sublime-syntax
-    - include: ./flow1/interface.sublime-syntax
-    - include: ./flow1/type-aliasing.sublime-syntax
-    - include: ./fjsx15/class/property.sublime-syntax
-    - include: ./flow1/indexer.sublime-syntax
-    - include: ./fjsx15/import.sublime-syntax
-    - include: ./fjsx15/export.sublime-syntax
+    - include: flow1/associated-type.sublime-syntax
+    - include: flow1/declare.sublime-syntax
+    - include: flow1/interface.sublime-syntax
+    - include: flow1/type-aliasing.sublime-syntax
+    - include: fjsx15/class/property.sublime-syntax
+    - include: flow1/indexer.sublime-syntax
+    - include: fjsx15/import.sublime-syntax
+    - include: fjsx15/export.sublime-syntax

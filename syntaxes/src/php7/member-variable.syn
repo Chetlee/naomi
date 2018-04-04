@@ -33,8 +33,8 @@ contexts:
       ]
 
   declaration:
-    - include: ./php7/variable.sublime-syntax
-    - include: ./php7/modifier.no-pop.sublime-syntax
+    - include: php7/variable.sublime-syntax
+    - include: php7/modifier.no-pop.sublime-syntax
 
   expression:
-    - include: ./php7/expression.sublime-syntax
+    - include: php7/expression.sublime-syntax
