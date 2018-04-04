@@ -56,4 +56,4 @@ contexts:
         - match: (?=\s*\?>)
           pop: true
       push:
-        - include: ./php7/statement-and-expression.sublime-syntax
+        - include: php7/statement-and-expression.sublime-syntax

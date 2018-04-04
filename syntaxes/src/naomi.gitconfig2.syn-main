@@ -13,16 +13,16 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-name: Git Ignore
-scope: source.git.ignore
+name: Git Config
+scope: source.git.config
 
 file_extensions:
-  - gitignore
+  - gitconfig
 
 contexts:
   main:
     - meta_scope: meta.naomi
     - match: ""
       push:
-        - include: ./git2/comment.sublime-syntax
-        - include: ./git2/pattern.sublime-syntax
+        - include: git2/comment.sublime-syntax
+        - include: git2/pattern.sublime-syntax

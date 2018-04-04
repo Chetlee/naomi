@@ -13,19 +13,14 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-name: MQL 4
-scope: source.mql
+name: SCSS
+scope: source.scss
 
 file_extensions:
-  - mq4
-  - mqh4
-  - mql4
+  - scss
 
 contexts:
   main:
     - meta_scope: meta.naomi
-    - match: ""
-      push: statement-and-expression
-
-  statement-and-expression:
-    - include: ./mql4/statement-and-expression.sublime-syntax
+    - include: scss3/selector.sublime-syntax
+    - include: scss3/statement-and-expression.sublime-syntax

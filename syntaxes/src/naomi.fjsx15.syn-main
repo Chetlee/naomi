@@ -13,16 +13,25 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-name: Git Config
-scope: source.git.config
+name: JavaScript
+scope: source.js
 
 file_extensions:
-  - gitconfig
+  - js
+  - jsx
+  - mjs
 
 contexts:
   main:
+    - match: ""
+      push: [ meta, entry ]
+
+  entry:
+    - include: fjsx15/comment.sublime-syntax
+    - include: fjsx15/statement.sublime-syntax
+    - include: fjsx15/expression.sublime-syntax
+
+  meta:
     - meta_scope: meta.naomi
     - match: ""
-      push:
-        - include: ./git2/comment.sublime-syntax
-        - include: ./git2/pattern.sublime-syntax
+      pop: true

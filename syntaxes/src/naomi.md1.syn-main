@@ -13,16 +13,16 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-name: Git Attributes
-scope: source.git.attributes
+name: Markdown (Github)
+scope: text.html.markdown
 
 file_extensions:
-  - gitattributes
+  - md
 
 contexts:
   main:
     - meta_scope: meta.naomi
     - match: ""
       push:
-        - include: ./git2/comment.sublime-syntax
-        - include: ./git2/pattern.sublime-syntax
+        - include: md1/header.sublime-syntax
+        - include: md1/code-block.sublime-syntax

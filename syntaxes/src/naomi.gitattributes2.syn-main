@@ -13,13 +13,16 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-name: JSX
-hidden: true
-scope: source.jsx
+name: Git Attributes
+scope: source.git.attributes
+
+file_extensions:
+  - gitattributes
 
 contexts:
   main:
     - meta_scope: meta.naomi
-    - include: ./jsx1/fragment.sublime-syntax
-    - include: ./jsx1/component.sublime-syntax
-    - include: ./jsx1/element.sublime-syntax
+    - match: ""
+      push:
+        - include: git2/comment.sublime-syntax
+        - include: git2/pattern.sublime-syntax

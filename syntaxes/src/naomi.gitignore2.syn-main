@@ -13,25 +13,16 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-name: JavaScript
-scope: source.js
+name: Git Ignore
+scope: source.git.ignore
 
 file_extensions:
-  - js
-  - jsx
-  - mjs
+  - gitignore
 
 contexts:
   main:
-    - match: ""
-      push: [ meta, entry ]
-
-  entry:
-    - include: ./fjsx15/comment.sublime-syntax
-    - include: ./fjsx15/statement.sublime-syntax
-    - include: ./fjsx15/expression.sublime-syntax
-
-  meta:
     - meta_scope: meta.naomi
     - match: ""
-      pop: true
+      push:
+        - include: git2/comment.sublime-syntax
+        - include: git2/pattern.sublime-syntax
