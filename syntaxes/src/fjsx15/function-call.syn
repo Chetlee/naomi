@@ -71,14 +71,14 @@ contexts:
       ]
 
   arguments:
-    - include: Packages/Naomi/syntaxes/fjsx15/function-call/arguments.sublime-syntax
+    - include: ./fjsx15/function-call/arguments.sublime-syntax
 
   else-pop:
     - match: (?=\S)
       pop: true
 
   expression:
-    - include: Packages/Naomi/syntaxes/fjsx15/expression.sublime-syntax
+    - include: ./fjsx15/expression.sublime-syntax
 
   identifier:
     - match: (?xi){{commonIdentifier}}
@@ -86,7 +86,7 @@ contexts:
       pop: true
 
   generic-arguments:
-    - include: Packages/Naomi/syntaxes/flow1/generic/arguments.sublime-syntax
+    - include: ./flow1/generic/arguments.sublime-syntax
 
   meta:
     - meta_scope: meta.function-call.js.fjsx15
@@ -94,7 +94,7 @@ contexts:
       pop: true
 
   optional-arguments:
-    - include: Packages/Naomi/syntaxes/fjsx15/comment.no-pop.sublime-syntax
+    - include: ./fjsx15/comment.no-pop.sublime-syntax
     - match: (?=\()
       push: expression
     - include: else-pop

@@ -33,4 +33,4 @@ contexts:
       push: expression
 
   expression:
-    - include: Packages/Naomi/syntaxes/fjsx15/expression.sublime-syntax
+    - include: ./fjsx15/expression.sublime-syntax

@@ -22,4 +22,4 @@ contexts:
       push: parameters
 
   parameters:
-    - include: Packages/Naomi/syntaxes/flow1/generic/parameters.sublime-syntax
+    - include: ./flow1/generic/parameters.sublime-syntax

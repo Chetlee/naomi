@@ -24,5 +24,5 @@ contexts:
     - meta_scope: meta.naomi
     - match: ""
       push:
-        - include: Packages/Naomi/syntaxes/md1/header.sublime-syntax
-        - include: Packages/Naomi/syntaxes/md1/code-block.sublime-syntax
+        - include: ./md1/header.sublime-syntax
+        - include: ./md1/code-block.sublime-syntax

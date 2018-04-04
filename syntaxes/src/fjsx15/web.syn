@@ -157,7 +157,7 @@ contexts:
       pop: true
 
   arguments:
-    - include: Packages/Naomi/syntaxes/fjsx15/function-call/arguments.sublime-syntax
+    - include: ./fjsx15/function-call/arguments.sublime-syntax
 
   document-property-or-function:
     # Function call.

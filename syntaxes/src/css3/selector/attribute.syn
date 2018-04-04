@@ -23,9 +23,9 @@ contexts:
       set: [ meta, close, operator, attribute ]
 
   attribute:
-    - include: Packages/Naomi/syntaxes/html5/attribute/builtin.sublime-syntax
-    - include: Packages/Naomi/syntaxes/html5/attribute/data.sublime-syntax
-    - include: Packages/Naomi/syntaxes/html5/attribute/other.sublime-syntax
+    - include: ./html5/attribute/builtin.sublime-syntax
+    - include: ./html5/attribute/data.sublime-syntax
+    - include: ./html5/attribute/other.sublime-syntax
 
   close:
     - match: \]
@@ -45,4 +45,4 @@ contexts:
       pop: true
 
   value:
-    - include: Packages/Naomi/syntaxes/css3/value.sublime-syntax
+    - include: ./css3/value.sublime-syntax
