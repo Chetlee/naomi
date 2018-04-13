@@ -28,6 +28,8 @@ contexts:
     # Methods.
     - include: fjsx15/class/modifier.sublime-syntax
     - include: fjsx15/class/method.sublime-syntax
+    # Key.
+    - include: fjsx15/literal/object/property.sublime-syntax
     # Shorthand.
     - include: constant
     - include: variable
@@ -48,8 +50,6 @@ contexts:
     - match: \}
       scope: punctuation.section.block.end.js.fjsx15
       pop: true
-    # Key.
-    - include: fjsx15/literal/object/property.sublime-syntax
     # Anything else.
     - match: (?=\S)
       push: anything-else
