@@ -30,9 +30,8 @@ contexts:
     - include: fjsx15/class/method.sublime-syntax
     # Key.
     - include: fjsx15/literal/object/property.sublime-syntax
-    # Shorthand.
-    - include: constant
-    - include: variable
+    # Any other expression.
+    - include: fjsx15/optional-expression.sublime-syntax
 
   comment-no-pop:
     - include: fjsx15/comment.no-pop.sublime-syntax
